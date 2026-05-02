@@ -4,3 +4,15 @@
   border-radius: var(--rounded-3xl);
   background: var(--bg-canvas);
 }
+
+@media (max-width: 1200px) {
+  .block {
+    padding: var(--spacing-32);
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    padding: var(--spacing-24);
+  }
+}

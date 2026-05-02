@@ -1,0 +1,21 @@
+:root {
+  /* Primary */
+  --color-primary-600: #0084D1;
+  --color-primary-700: #0069A8;
+  --color-primary-800: #024A70;
+  --color-primary-900: #052F4A;
+
+  /* Neutral */
+  --color-neutral-background: #FFFFFF;
+  --color-neutral-surface: #F5F6F7;
+  --color-neutral-primary: #71797D;
+  --color-neutral-secondary: #828A8E;
+  --color-neutral-muted: #BFC5CF;
+  --color-neutral-border: #E5E8E9;
+
+  /* Feedback */
+  --color-feedback-danger: #C80003;
+  --color-feedback-warning: #D08700;
+  --color-feedback-success: #00935B;
+  --color-feedback-information: #2B7FFF;
+}

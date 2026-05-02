@@ -1,0 +1,4 @@
+:root {
+  --shadow-card: 0 .25rem .5rem rgba(0, 0, 0, 0.12);
+  --shadow-block: 0 .75rem 1.5rem rgba(0, 0, 0, 0.08);
+}

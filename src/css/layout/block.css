@@ -1,0 +1,6 @@
+.block {
+  box-shadow: var(--shadow-block);
+  padding: var(--spacing-80);
+  border-radius: var(--rounded-3xl);
+  background: var(--bg-canvas);
+}

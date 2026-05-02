@@ -1,0 +1,30 @@
+:root {
+  /* Button Colors – Primary */
+  --button-primary-bg: var(--bg-primary);
+  --button-primary-bg-hover: var(--bg-primary-emphasis);
+  --button-primary-bg-disabled: var(--bg-surface);
+  --button-primary-label: var(--color-text-inverted);
+  --button-primary-label-disabled: var(--color-text-muted);
+  --button-primary-icon: var(--color-text-inverted);
+  --button-primary-icon-disabled: var(--color-text-muted);
+
+  /* Button Colors – Secondary */
+  --button-secondary-bg: var(--bg-primary-strong);
+  --button-secondary-bg-hover: var(--bg-primary-stronger);
+  --button-secondary-bg-disabled: var(--bg-surface);
+  --button-secondary-label: var(--color-text-inverted);
+  --button-secondary-label-disabled: var(--color-text-muted);
+  --button-secondary-icon: var(--color-text-inverted);
+  --button-secondary-icon-disabled: var(--color-text-muted);
+
+  /* Button Colors – Tertiary */
+  --button-tertiary-bg: transparent;
+  --button-tertiary-bg-hover: var(--bg-primary-emphasis);
+  --button-tertiary-bg-disabled: transparent;
+  --button-tertiary-label: var(--color-text-brand);
+  --button-tertiary-label-hover: var(--color-text-inverted);
+  --button-tertiary-label-disabled: var(--color-text-muted);
+  --button-tertiary-icon: var(--color-text-brand);
+  --button-tertiary-icon-hover: var(--color-text-inverted);
+  --button-tertiary-icon-disabled: var(--color-text-muted);
+}

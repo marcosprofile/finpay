@@ -1,0 +1,22 @@
+/* Tokens Global (Primitivos) */
+@import "./base/tokens/global/colors.css";
+@import "./base/tokens/global/rounded.css";
+@import "./base/tokens/global/shadows.css";
+@import "./base/tokens/global/spacings.css";
+@import "./base/tokens/global/typograph.css";
+
+/* Tokens Semantic */
+@import "./base/tokens/semantic/semantic.css";
+@import "./base/tokens/semantic/components/input.css";
+@import "./base/tokens/semantic/components/button.css";
+
+/* Base */
+@import "./base/base.css";
+
+/* Layout & Structure */
+@import "./layout/section.css";
+@import "./layout/container.css";
+@import "./layout/block.css";
+
+/* Utilities */
+@import "./utilities.css";

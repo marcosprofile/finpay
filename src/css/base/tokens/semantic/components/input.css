@@ -1,0 +1,11 @@
+:root {
+  /* Input Colors */
+  --input-bg: var(--color-neutral-background);
+  --input-bg-disabled: var(--color-neutral-surface);
+  --input-text: var(--color-neutral-primary);
+  --input-placeholder: var(--color-neutral-muted);
+  --input-border: var(--color-border);
+  --input-border-focus: var(--color-border-focus);
+  --input-border-danger: var(--color-border-danger);
+  --input-border-success: var(--color-border-success);
+}

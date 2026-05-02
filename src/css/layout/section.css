@@ -1,0 +1,5 @@
+section {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-80) var(--spacing-24);
+}

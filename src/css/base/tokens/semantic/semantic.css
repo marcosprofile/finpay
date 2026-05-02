@@ -1,0 +1,25 @@
+:root {
+  /* Background Colors */
+  --bg-canvas: var(--color-neutral-background);
+  --bg-surface: var(--color-neutral-surface);
+  --bg-primary: var(--color-primary-600);
+  --bg-primary-emphasis: var(--color-primary-700);
+  --bg-primary-strong: var(--color-primary-800);
+  --bg-primary-stronger: var(--color-primary-900);
+
+  /* Text Colors */
+  --color-text-heading: var(--color-primary-800);
+  --color-text-brand: var(--color-primary-600);
+  --color-text-primary: var(--color-neutral-primary);
+  --color-text-secondary: var(--color-neutral-secondary);
+  --color-text-muted: var(--color-neutral-muted);
+  --color-text-inverted: var(--color-neutral-background);
+
+  /* Border Colors */
+  --color-border: var(--color-neutral-border);
+  --color-border-brand: var(--color-primary-600);
+  --color-border-focus: var(--color-primary-600);
+  --color-border-danger: var(--color-feedback-danger);
+  --color-border-success: var(--color-feedback-success);
+  --color-border-inverted: var(--color-neutral-background);
+}

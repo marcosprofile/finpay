@@ -1,0 +1,29 @@
+.functionality {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+
+  .functionality__icon {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--bg-surface);
+    border-radius: var(--rounded-xl);
+  }
+
+  .functionality__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+
+    .content__title {
+      font-weight: var(--font-weight-semibold);
+    }
+
+    .content__description {
+      font-size: var(--caption);
+      line-height: var(--line-height-caption);
+    }
+  }
+}

@@ -19,3 +19,15 @@
     background: linear-gradient(180deg, transparent 0%, transparent 50%, var(--bg-canvas) 50%, var(--bg-canvas) 100%);
   }
 }
+
+@media (max-width: 1200px) {
+  .section {
+    padding: var(--spacing-64) var(--spacing-24);
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--spacing-48) var(--spacing-24);
+  }
+}

@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./src/assets/logo-finpay-positive.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="./src/assets/logo-finpay-negative.svg" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" href="./src/css/main.css">
   <title>Finpay | UI Architecture & Design System</title>
 </head>
@@ -26,6 +28,8 @@
         <div class="actions">
           <button class="button button--full" data-variant="tertiary" size="medium">Login</button>
           <button class="button button--full" data-variant="primary" size="medium">Sign Up</button>
+          
+          <!-- Button Tablet/Mobile -->
           <button class="button mobile-menu" aria-label="Open Menu">
             <img src="./src/assets/icons/menu-mobile.svg" alt="Menu" />
           </button>
@@ -38,13 +42,14 @@
     <section class="section section--surface">
       <div class="container">
         <div class="hero">
+          <!-- Hero Left -->
           <div class="hero__content">
             <div class="hero__info">
               <h1><strong>Get paid early</strong> <br> save automatically all your pay.</h1>
               <p>Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
             </div>
             
-            <form class="form">
+            <form class="hero__form">
               <div class="input-container">
                 <div class="input-container__group">
                   <input type="email" name="email" autocomplete="off" class="input" placeholder="Your business email">
@@ -59,6 +64,58 @@
               <img src="./src/assets/logo-klarna.svg" alt="Klarna" />
               <img src="./src/assets/logo-coinbase.svg" alt="Coinbase" />
               <img src="./src/assets/logo-instacart.svg" alt="Instacart" />
+            </div>
+          </div>
+
+          <!-- Hero Right -->
+          <div class="hero__cards">
+            <div class="cards">
+              <!-- Card Pay -->
+              <div class="card-pay">
+                <div class="card-pay__client">
+                  <img src="./src/assets/logo-card-pay.svg" alt="Card Pay" />
+                  <div class="card-pay__client-info">
+                    <p class="card-pay__client-name">Dipa Inhouse</p>
+                    <span class="card-pay__client-email">dipainhouse@gmail.com</span>
+                  </div>
+                </div>
+                
+                <div class="card-pay__content">
+                  <div class="card-pay__invoice">
+                    <span>Invoice</span>
+                    <h4>$1,876.58</h4>
+                    <p>April 21, 2026</p>
+                  </div>
+                  <div class="card-pay__options">
+                    <div class="option option--selected">
+                      <img src="./src/assets/icons/icon-credit-card.svg" alt="Credit Card" />
+                      <span>Credit Card</span>
+                      <div class="radio radio--selected"></div>
+                    </div>
+                    <div class="option">
+                      <img src="./src/assets/icons/icon-bank-card.svg" alt="Bank Card" />
+                      <span>Bank Card</span>
+                      <div class="radio"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card-pay__action">
+                  <button class="button button--full" data-variant="secondary" size="medium">Pay</button>
+                </div>
+              </div>
+  
+              <!-- Card Absolute -->
+              <div class="card-credit">
+                <div class="card-credit__content">
+                  <span>Credit Card</span>
+                  <h6>**** **** **** 2340</h6>
+                </div>
+                <div class="card-credit__footer">
+                  <img src="./src/assets/logo-visa.svg" alt="Visa" />
+                  <img src="./src/assets/icons/icon-proximity.svg" alt="Proximity" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

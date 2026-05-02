@@ -208,6 +208,7 @@
 @media (max-width: 1200px) {
   .hero {
     grid-template-columns: 1fr;
+    gap: var(--spacing-64);
 
     .hero__content {
       align-items: center;

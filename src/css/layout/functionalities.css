@@ -16,13 +16,13 @@
     justify-content: space-between;
     padding-bottom: var(--spacing-24);
 
-    .content__title,
-    .content__paragraph {
+    .functionalities__title,
+    .functionalities__paragraph {
       width: 100%;
       max-width: 448px;
     }
 
-    .content__paragraph {
+    .functionalities__paragraph {
       font-size: var(--heading-5);
       line-height: var(--line-height-heading-5);
       letter-spacing: var(--tight);

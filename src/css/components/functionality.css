@@ -17,11 +17,11 @@
     flex-direction: column;
     gap: var(--spacing-8);
 
-    .content__title {
+    .functionality__title {
       font-weight: var(--font-weight-semibold);
     }
 
-    .content__description {
+    .functionality__description {
       font-size: var(--caption);
       line-height: var(--line-height-caption);
     }

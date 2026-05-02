@@ -14,9 +14,16 @@
 @import "./base/base.css";
 
 /* Layout & Structure */
-@import "./layout/section.css";
-@import "./layout/container.css";
 @import "./layout/block.css";
+@import "./layout/container.css";
+@import "./layout/hero.css";
+@import "./layout/section.css";
+
+/* Components */
+@import "./components/button.css";
+@import "./components/header.css";
+@import "./components/input.css";
+@import "./components/navigation.css";
 
 /* Utilities */
 @import "./utilities.css";

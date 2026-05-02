@@ -1,0 +1,95 @@
+.button {
+  font-family: var(--font-body);
+  font-size: var(--caption);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-caption);
+  letter-spacing: var(--normal);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-12) var(--spacing-24);
+  min-height: 3rem;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: var(--rounded-xl);
+  cursor: pointer;
+  transition: all .2s ease;
+
+  &.button--full {
+    width: 100%;
+  }
+
+  /* Primary Variant */
+  &[data-variant="primary"] {
+    background: var(--button-primary-bg);
+    color: var(--button-primary-label);
+
+    &:hover {
+      background: var(--button-primary-bg-hover);
+    }
+
+    &[disabled] {
+      background: var(--button-primary-bg-disabled);
+      color: var(--button-primary-label-disabled);
+      cursor: not-allowed;
+    }
+  }
+
+  /* Secondary Variant */
+  &[data-variant="secondary"] {
+    background: var(--button-secondary-bg);
+    color: var(--button-secondary-label);
+
+    &:hover {
+      background: var(--button-secondary-bg-hover);
+    }
+
+    &[disabled] {
+      background: var(--button-secondary-bg-disabled);
+      color: var(--button-secondary-label-disabled);
+      cursor: not-allowed;
+    }
+  }
+
+  /* Tertiary Variant */
+  &[data-variant="tertiary"] {
+    background: var(--button-tertiary-bg);
+    border-color: var(--button-tertiary-border);
+    color: var(--button-tertiary-label);
+
+    &:hover {
+      background: var(--button-tertiary-bg-hover);
+      color: var(--button-tertiary-label-hover);
+    }
+
+    &[disabled] {
+      background: var(--button-tertiary-bg-disabled);
+      border-color: var(--button-tertiary-border-disabled);
+      color: var(--button-tertiary-label-disabled);
+      cursor: not-allowed;
+    }
+  }
+
+  /* Sizes */
+  &[size="small"] {
+    padding: var(--spacing-8) var(--spacing-16);
+    font-size: var(--legend);
+    line-height: var(--line-height-legend);
+    min-height: 2.5rem;
+  }
+  
+  &[size="medium"] {
+    padding: var(--spacing-12) var(--spacing-24);
+    font-size: var(--caption);
+    line-height: var(--line-height-caption);
+    min-height: 3rem;
+  }
+  
+  &[size="large"] {
+    padding: var(--spacing-16) var(--spacing-32);
+    font-size: var(--body);
+    line-height: var(--line-height-body);
+    min-height: 3.5rem;
+  }
+}

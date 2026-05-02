@@ -1,5 +1,21 @@
-section {
+.section {
   display: flex;
   justify-content: center;
   padding: var(--spacing-80) var(--spacing-24);
+
+  &.section--canvas {
+    background: var(--bg-canvas);
+  }
+
+  &.section--surface {
+    background: var(--bg-surface);
+  }
+
+  &.section--stronger {
+    background: var(--bg-primary-stronger);
+  }
+
+  &.section--gradient {
+    background: linear-gradient(180deg, transparent 0%, transparent 50%, var(--bg-canvas) 50%, var(--bg-canvas) 100%);
+  }
 }

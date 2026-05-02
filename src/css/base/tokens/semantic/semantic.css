@@ -13,6 +13,10 @@
   --color-text-primary: var(--color-neutral-primary);
   --color-text-secondary: var(--color-neutral-secondary);
   --color-text-muted: var(--color-neutral-muted);
+  --color-text-danger: var(--color-feedback-danger);
+  --color-text-warning: var(--color-feedback-warning);
+  --color-text-success: var(--color-feedback-success);
+  --color-text-information: var(--color-feedback-information);
   --color-text-inverted: var(--color-neutral-background);
 
   /* Border Colors */

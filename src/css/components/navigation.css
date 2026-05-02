@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  .navigation__list {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-24);
+    list-style: none;  
+
+    .navigation__item {
+      a {
+        font-size: var(--font-size-16);
+        color: var(--color-primary-800);
+        text-decoration: none;
+        font-weight: var(--font-weight-medium);
+    
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+}

@@ -3,16 +3,23 @@
   padding: var(--spacing-80);
   border-radius: var(--rounded-3xl);
   background: var(--bg-canvas);
+
+  &.block--surface {
+    background: var(--bg-surface);
+    box-shadow: unset;
+    padding: var(--spacing-48);
+    border: 1px solid var(--color-border);
+  }
 }
 
 @media (max-width: 1200px) {
   .block {
-    padding: var(--spacing-32);
+    padding: var(--spacing-32) !important;
   }
 }
 
 @media (max-width: 768px) {
   .block {
-    padding: var(--spacing-24);
+    padding: var(--spacing-24) !important;
   }
 }

@@ -144,6 +144,8 @@
 
 @media (max-width: 768px) {
   .metrics {
+    flex-direction: column;
+    
     .block {
       min-width: 375px;
     }

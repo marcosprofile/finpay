@@ -3,12 +3,20 @@
   padding: var(--spacing-80);
   border-radius: var(--rounded-3xl);
   background: var(--bg-canvas);
+  z-index: 2;
+  overflow: hidden;
 
   &.block--surface {
     background: var(--bg-surface);
     box-shadow: unset;
     padding: var(--spacing-48);
     border: 1px solid var(--color-border);
+  }
+  
+  &.block--primary {
+    background: var(--bg-primary);
+    padding: var(--spacing-32);
+    box-shadow: unset;
   }
 
   &.block--strong {

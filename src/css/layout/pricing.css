@@ -1,0 +1,121 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-40);
+
+  .pricing__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+    text-align: center;
+  }
+  
+  .pricing__small-text {
+    font-size: var(--legend);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-brand);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .pricing__stats {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-32);
+    padding: var(--spacing-32) var(--spacing-0);
+
+    .pricing__stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-16);
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+
+      .pricing__stat-number {
+        font-size: var(--heading-1);
+        line-height: var(--line-height-heading-1);
+        letter-spacing: var(--tighter);
+      }
+
+      .pricing__stat-legend {
+        letter-spacing: var(--tight);
+      }
+    }
+  }
+
+  .pricing__grid {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-32);
+
+    .pricing__card {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-80);
+      position: relative;
+      width: 100%;
+      cursor: pointer;
+      transition: all .2s ease;
+
+      &.block--surface {
+        padding: var(--spacing-32);
+      }
+
+      .pricing__card-badge {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .pricing__card-name {
+        font-weight: var(--font-weight-semibold);
+      }
+
+      .pricing__card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--spacing-8);
+        position: relative;
+        min-height: 2.5rem;
+
+        img {
+          transition: all .2s ease;
+        }
+      }
+
+      &.block--primary {
+        .pricing__card-name,
+        .pricing__card-price {
+          color: var(--color-text-inverted);
+        }
+
+        .pricing__card-footer {
+          img {
+            filter: brightness(1000);
+          }
+        }
+      }
+
+      &:hover {
+        box-shadow: var(--shadow-card);
+
+        .pricing__plan-value {
+          img {
+            transform: translateY(-8px) translateX(8px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    .pricing__grid {
+      flex-direction: column;
+    }
+  }
+}

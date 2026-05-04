@@ -40,7 +40,7 @@
       border-color: var(--input-border-focus);
     }
 
-    .input {
+    input {
       flex: 1;
       font-size: var(--body);
       outline: none;

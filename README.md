@@ -6,14 +6,9 @@
 
 <br>
 
-## Status do Projeto
-
-> **Work in Progress**
-
-<p>Este projeto está em desenvolvimento contínuo, com foco na evolução da arquitetura de UI e expansão do Design System.</p>
-
-**Live Demo:** –  
-**Figma:** [Acessar projeto](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=0-1&t=IGymZ7fCxBRsHrHH-1) 
+**Live Demo:** [Acessar](https://finpay-ui-architecture.vercel.app/)
+<br>
+**Figma:** [Acessar](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=0-1&t=IGymZ7fCxBRsHrHH-1) 
 
 ---
 

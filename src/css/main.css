@@ -16,6 +16,7 @@
 /* Layout & Structure */
 @import "./layout/block.css";
 @import "./layout/container.css";
+@import "./layout/footer.css";
 @import "./layout/functionalities.css";
 @import "./layout/get-started.css";
 @import "./layout/hero.css";

@@ -26,6 +26,7 @@
 
   &.block--stronger {
     background: var(--bg-primary-stronger);
+    box-shadow: usnet;
   }
 }
 

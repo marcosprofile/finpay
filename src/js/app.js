@@ -3,6 +3,7 @@ const container = document.querySelector('.input-container');
 const message = document.querySelector('.input-container__message');
 const submitBtn = document.querySelector('.button[type="submit"]');
 
+
 const personalDomains = [
   'gmail.com',
   'hotmail.com',
@@ -50,3 +51,8 @@ emailInput.addEventListener('input', (e) => {
   container.dataset.state = 'success';
   submitBtn.disabled = false;
 });
+
+
+const copyright = document.querySelector('.footer__copyright');
+
+copyright.innerHTML = `<p>&copy; Finpay ${new Date().getFullYear()}. All Rights Reserved.</p>`

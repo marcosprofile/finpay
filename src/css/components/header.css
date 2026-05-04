@@ -15,8 +15,12 @@
       align-items: center;
       gap: var(--spacing-32);
 
-      .logo {
-        height: 1.5rem;
+      a {
+        display: flex;
+
+        .logo {
+          height: 1.5rem;
+        }
       }
 
       .actions {

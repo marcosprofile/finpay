@@ -1,8 +1,23 @@
+.section:has(.hero) {
+  position: relative;
+}
+
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
   gap: var(--spacing-32);
+
+  .hero__fixed-image {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+  }
+
+  .hero__content,
+  .hero__cards {
+    z-index: 2;
+  }
 
   .hero__content {
     display: flex;

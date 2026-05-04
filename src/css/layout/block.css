@@ -23,6 +23,10 @@
     background: var(--bg-primary-strong);
     padding: var(--spacing-32);
   }
+
+  &.block--stronger {
+    background: var(--bg-primary-stronger);
+  }
 }
 
 @media (max-width: 1200px) {

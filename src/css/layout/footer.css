@@ -59,6 +59,7 @@
             gap: var(--spacing-8);
             color: var(--color-text-secondary);
             text-decoration: none;
+            width: max-content;
 
             &:hover {
               text-decoration: underline;

@@ -6,7 +6,9 @@
 
 <br>
 
-**Live Demo:** [Acessar](https://finpay-ui-architecture.vercel.app/)
+**Projeto:** [Acessar](https://finpay-ui-architecture.vercel.app/)
+<br>
+**Behance:** [Acessar](https://www.behance.net/gallery/248503691/Finpay-UI-Architecture-Design-System)
 <br>
 **Figma:** [Acessar](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=0-1&t=IGymZ7fCxBRsHrHH-1) 
 

@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: var(--spacing-8);
   padding: var(--spacing-12) var(--spacing-24);
   min-height: 3rem;
   border: 1px solid transparent;

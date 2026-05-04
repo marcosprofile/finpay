@@ -12,6 +12,9 @@
     position: absolute;
     top: 1rem;
     right: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   .hero__content,
@@ -55,6 +58,9 @@
     justify-content: center;
     align-items: end;
     height: 480px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 
     .cards {
       width: 100%;
@@ -63,7 +69,7 @@
       display: flex;
       align-items: end;
       position: relative;
-      
+
       .card-pay {
         display: flex;
         flex-direction: column;
@@ -74,7 +80,7 @@
         box-shadow: var(--shadow-card);
         padding: var(--spacing-24);
         border-radius: var(--rounded-3xl);
-  
+
         .card-pay__client {
           display: flex;
           align-items: center;
@@ -89,13 +95,13 @@
             display: grid;
             place-items: center;
           }
-  
+
           .card-pay__client-info {
             .card-pay__client-name {
               font-weight: var(--font-weight-semibold);
               color: var(--color-text-heading);
             }
-  
+
             .card-pay__client-email {
               font-size: var(--caption);
               line-height: var(--line-height-caption);
@@ -105,42 +111,42 @@
             }
           }
         }
-  
+
         .card-pay__content {
           display: flex;
           flex-direction: column;
           gap: var(--spacing-8);
-  
+
           .card-pay__invoice {
             display: flex;
             flex-direction: column;
             padding: var(--spacing-16);
             border: 1px solid var(--color-border);
             border-radius: var(--rounded-xl);
-  
+
             span {
               font-size: var(--legend);
               line-height: var(--line-height-legend);
             }
-  
+
             h4 {
               font-size: var(--heading-4);
               line-height: var(--line-height-heading-4);
               color: var(--color-text-primary);
               font-weight: var(--font-weight-semibold);
             }
-  
+
             p {
               font-size: var(--caption);
               line-height: var(--line-height-caption);
             }
           }
-  
+
           .card-pay__options {
             display: flex;
             flex-direction: column;
             gap: var(--spacing-8);
-  
+
             .option {
               display: flex;
               align-items: center;
@@ -153,20 +159,20 @@
               line-height: var(--line-height-caption);
               font-weight: var(--font-weight-medium);
               max-height: 54px;
-  
+
               span {
                 flex: 1;
               }
-  
+
               &.option--selected {
                 outline-color: var(--color-border-primary);
-  
+
                 .radio {
                   outline-color: var(--color-border-primary);
                   background: var(--bg-primary);
                 }
               }
-  
+
               .radio {
                 width: 1rem;
                 height: 1rem;
@@ -178,14 +184,14 @@
             }
           }
         }
-  
+
         .card-pay__action {
           .button {
             pointer-events: none;
           }
         }
       }
-  
+
       .card-credit {
         position: absolute;
         top: 0;
@@ -194,7 +200,7 @@
         max-width: 228px;
         border-radius: var(--rounded-3xl);
         overflow: hidden;
-  
+
         .card-credit__content {
           display: flex;
           flex-direction: column;
@@ -202,22 +208,22 @@
           height: 212px;
           background: var(--bg-primary);
           padding: var(--spacing-24);
-  
+
           span, h6 {
             color: var(--color-text-inverted);
           }
-  
+
           span {
             font-size: var(--legend);
             line-height: var(--line-height-legend);
           }
-  
+
           h6 {
             font-size: var(--heading-6);
             line-height: var(--line-height-heading-6);
           }
         }
-  
+
         .card-credit__footer {
           display: flex;
           align-items: center;
@@ -277,7 +283,7 @@
     .hero__cards {
       justify-content: start;
       height: unset;
-      
+
       .cards {
         padding-top: var(--spacing-48);
 

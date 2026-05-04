@@ -24,15 +24,15 @@
   --font-weight-bold: 700;
 
   /* Line Heights */
-  --line-height-heading-1: 4.55rem;
-  --line-height-heading-2: 4.375rem;
-  --line-height-heading-3: 3.375rem;
-  --line-height-heading-4: 2.625rem;
-  --line-height-heading-5: 2.125rem;
-  --line-height-heading-6: 1.75rem;
-  --line-height-body: 1.625rem;
-  --line-height-caption: 1.375rem;
-  --line-height-legend: 1.25rem;
+  --line-height-heading-1: 1.2;
+  --line-height-heading-2: 1.2;
+  --line-height-heading-3: 1.3;
+  --line-height-heading-4: 1.3;
+  --line-height-heading-5: 1.3;
+  --line-height-heading-6: 1.3;
+  --line-height-body: 1.5;
+  --line-height-caption: 1.5;
+  --line-height-legend: 1.5;
 
   /* Letter Spacing */
   --tighter: -0.05rem;
@@ -47,9 +47,6 @@
   :root {
     /* Font Sizes */
     --heading-1: 3.25rem;
-
-    /* Line Heights */
-    --line-height-heading-1: 3.25rem;
   }
 }
 
@@ -58,9 +55,5 @@
     /* Font Sizes */
     --heading-1: 2.625rem;
     --heading-2: 2.25rem;
-
-    /* Line Heights */
-    --line-height-heading-1: 2.625rem;
-    --line-height-heading-2: 3.125rem;
   }
 }

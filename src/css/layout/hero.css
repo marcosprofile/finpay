@@ -249,11 +249,31 @@
 
 @media (max-width: 600px) {
   .hero {
+    .hero__content {
+      .hero__clients {
+        gap: var(--spacing-12);
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
     .hero__cards {
       justify-content: start;
-
+      height: unset;
+      
       .cards {
-        max-width: unset;
+        padding-top: var(--spacing-48);
+
+        .card-pay,
+        .card-credit {
+          transform: scale(.8);
+        }
+
+        .card-credit {
+          right: -5%;
+        }
       }
     }
   }

@@ -19,6 +19,18 @@
         flex-direction: column;
         gap: var(--spacing-8);
 
+        &:nth-child(2) {
+          transition-delay: 300ms;
+        }
+
+        &:nth-child(3) {
+          transition-delay: 600ms;
+        }
+
+        &:nth-child(4) {
+          transition-delay: 900ms;
+        }
+
         &:has(.logo) {
           gap: var(--spacing-40);
 

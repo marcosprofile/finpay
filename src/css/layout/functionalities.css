@@ -34,6 +34,20 @@
     align-items: start;
     gap: var(--spacing-80);
     padding-top: var(--spacing-12);
+
+    .functionality {
+      &:first-child {
+        transition-delay: 500ms;
+      }
+      
+      &:nth-child(2) {
+        transition-delay: 1000ms;
+      }
+      
+      &:nth-child(3) {
+        transition-delay: 1500ms;
+      }
+    }
   }
 }
 

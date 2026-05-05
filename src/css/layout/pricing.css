@@ -8,6 +8,10 @@
     flex-direction: column;
     gap: var(--spacing-16);
     text-align: center;
+
+    .pricing__small-text {
+      transition-delay: 0;
+    }
   }
 
   .pricing__small-text {
@@ -16,6 +20,7 @@
     color: var(--color-text-brand);
     text-transform: uppercase;
     text-align: center;
+    transition-delay: 1000ms;
   }
 
   .pricing__stats {
@@ -31,6 +36,18 @@
       justify-content: center;
       width: 100%;
       text-align: center;
+
+      &:first-child {
+        transition-delay: 400ms;
+      }
+
+      &:nth-child(2) {
+        transition-delay: 700ms;
+      }
+
+      &:nth-child(3) {
+        transition-delay: 1000ms;
+      }
 
       .pricing__stat-number {
         font-size: var(--heading-1);
@@ -60,6 +77,14 @@
       -moz-user-select: none;
       -webkit-user-select: none;
       user-select: none;
+
+      &:first-child {
+        transition-delay: 1400ms;
+      }
+      
+      &:last-child {
+        transition-delay: 1800ms;
+      }
 
       &.block--surface {
         padding: var(--spacing-32);

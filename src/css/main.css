@@ -13,6 +13,9 @@
 /* Base */
 @import "./base/base.css";
 
+/* Animations */
+@import "./base/animations.css";
+
 /* Layout & Structure */
 @import "./layout/block.css";
 @import "./layout/container.css";

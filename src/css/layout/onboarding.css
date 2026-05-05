@@ -32,6 +32,18 @@
         display: flex;
         flex-direction: column;
         gap: var(--spacing-24);
+        
+        &:first-child {
+          transition-delay: 400ms;
+        }
+        
+        &:nth-child(2) {
+          transition-delay: 700ms;
+        }
+        
+        &:nth-child(3) {
+          transition-delay: 1000ms;
+        }
 
         .onboarding__card-step {
           font-size: 5rem;

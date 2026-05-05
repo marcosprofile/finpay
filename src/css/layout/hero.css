@@ -1,13 +1,6 @@
-.section:has(.hero) {
+.section:has(.hero__fixed-image) {
   position: relative;
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: start;
-  gap: var(--spacing-32);
-
+  
   .hero__fixed-image {
     position: absolute;
     top: 1rem;
@@ -16,6 +9,13 @@
     -webkit-user-select: none;
     user-select: none;
   }
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  gap: var(--spacing-32);
 
   .hero__content,
   .hero__cards {

@@ -42,11 +42,12 @@
 
   <main>
     <section class="section section--surface">
+      <img class="hero__fixed-image hidden" src="./src/assets/fixed-image-hero.svg" alt="Fixed Hero" draggable="false">
+
       <div class="container">
         <div class="hero">
-          <img class="hero__fixed-image" src="./src/assets/fixed-image-hero.svg" alt="Fixed Hero" draggable="false">
           <!-- Hero Left -->
-          <div class="hero__content">
+          <div class="hero__content hidden left">
             <div class="hero__info">
               <h1 class="hero__title"><strong>Get paid early</strong> <br> save automatically all your pay.</h1>
               <p class="hero__paragraph">Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
@@ -74,7 +75,7 @@
           <div class="hero__cards">
             <div class="cards">
               <!-- Card Pay -->
-              <div class="card-pay">
+              <div class="card-pay hidden bottom">
                 <div class="card-pay__client">
                   <div class="card-pay__logo-client">
                     <img src="./src/assets/logo-dipa.svg" alt="Card Pay" />
@@ -111,7 +112,7 @@
               </div>
   
               <!-- Card Absolute -->
-              <div class="card-credit">
+              <div class="card-credit hidden top">
                 <div class="card-credit__content">
                   <span>Credit Card</span>
                   <h6>**** **** **** 2340</h6>
@@ -128,18 +129,19 @@
     </section>
 
     <section class="section section--gradient">
-      <div class="container">
+      <div class="container hidden bottom">
         <div class="block">
           <div class="functionalities">
-            <span class="functionalities__small-text">future payment</span>
+            <span class="functionalities__small-text hidden left">future payment</span>
             
             <div class="functionalities__content">
-              <h3 class="functionalities__title">Experience that grows with your scale.</h3>
-              <p class="functionalities__paragraph">Design a financial operating system that works for your business and streamlined cash flow management</p>
+              <h3 class="functionalities__title hidden left">Experience that grows with your scale.</h3>
+              <p class="functionalities__paragraph hidden right">Design a financial operating system that works for your business and streamlined cash flow management</p>
             </div>
 
             <div class="functionalities__items">
-              <div class="functionality">
+              <!-- Item 1 -->
+              <div class="functionality hidden bottom">
                 <div class="functionality__icon">
                   <img src="./src/assets/icons/icon-functionality-1.svg" alt="Functionality 1" draggable="false" />
                 </div>
@@ -149,7 +151,8 @@
                 </div>
               </div>
 
-              <div class="functionality">
+              <!-- Item 2 -->
+              <div class="functionality hidden bottom">
                 <div class="functionality__icon">
                   <img src="./src/assets/icons/icon-functionality-2.svg" alt="Functionality 2" draggable="false" />
                 </div>
@@ -159,7 +162,8 @@
                 </div>
               </div>
 
-              <div class="functionality">
+              <!-- Item 3 -->
+              <div class="functionality hidden bottom">
                 <div class="functionality__icon">
                   <img src="./src/assets/icons/icon-functionality-3.svg" alt="Functionality 3" draggable="false" />
                 </div>
@@ -178,13 +182,13 @@
       <div class="container">
         <div class="metrics">
           <!-- Card 1 -->
-          <div class="block block--surface">
+          <div class="block block--surface hidden left">
             <h2 class="metrics__title">3K+</h2>
             <h3 class="metrics__subtitle">Businesses already running on Finpay</h3>
           </div>
 
           <!-- Card 2 -->
-          <div class="block block--surface">
+          <div class="block block--surface hidden right">
             <h3 class="metrics__subtitle">Instant Withdraw your founds at any time</h3>
             <div class="metrics__transfers">
               <div class="metrics__logo">
@@ -203,7 +207,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="block block--surface">
+          <div class="block block--surface hidden bottom">
             <div class="metrics__content">
               <h3 class="metrics__subtitle">No asset volatillity</h3>
               <p class="metrics__caption">Generate returns on your cash reserves without making any investments.</p>
@@ -237,7 +241,7 @@
       </div>
     </section>
 
-    <section class="section section--stronger">
+    <section class="section section--stronger hidden">
       <div class="container">
         <div class="onboarding">
           <div class="onboarding__info">
@@ -246,17 +250,17 @@
           </div>
 
           <div class="onboarding__cards">
-            <div class="block block--strong">
-              <h2 class="onboarding__card-step">1</h2>
-              <h4 class="onboarding__card-title">Open your account</h4>
+            <div class="block block--strong hidden bottom">
+              <h2 class="onboarding__card-step hidden top">1</h2>
+              <h4 class="onboarding__card-title hidden top">Open your account</h4>
               <p class="onboarding__card-description">Sign up to finpay and set up your account from the dashboard.</p>
             </div>
-            <div class="block block--strong">
+            <div class="block block--strong hidden bottom">
               <h2 class="onboarding__card-step">2</h2>
               <h4 class="onboarding__card-title">Transfer your money</h4>
               <p class="onboarding__card-description">Move money from to another account into and start to earning up.</p>
             </div>
-            <div class="block block--strong">
+            <div class="block block--strong hidden bottom">
               <h2 class="onboarding__card-step">3</h2>
               <h4 class="onboarding__card-title">Watch your balance grow</h4>
               <p class="onboarding__card-description">Accessed instantly and remain insulated from market volatillity.</p>
@@ -269,35 +273,35 @@
     <section class="section section--canvas">
       <div class="container">
         <div class="pricing">
-          <div class="pricing__header">
+          <div class="pricing__header hidden top">
             <span class="pricing__small-text">our mission</span>
             <h3 class="pricing__title">We’ve helped<br>innovative companies</h3>
             <p class="pricing__subtitle">Hundreds of all sizes and across all industries<br>have made a big improvements with us.</p>
           </div>
 
-          <div class="pricing__stats">
+          <div class="pricing__stats hidden left">
             <!-- Stat 1 -->
-            <div class="pricing__stat-item">
+            <div class="pricing__stat-item hidden bottom">
               <h2 class="pricing__stat-number">24%</h2>
               <h6 class="pricing__stat-legend">Revenue business</h6>
             </div>
             <!-- Stat 2 -->
-            <div class="pricing__stat-item">
+            <div class="pricing__stat-item hidden bottom">
               <h2 class="pricing__stat-number">180K</h2>
               <h6 class="pricing__stat-legend">In annual revenue</h6>
             </div>
             <!-- Stat 3 -->
-            <div class="pricing__stat-item">
+            <div class="pricing__stat-item hidden bottom">
               <h2 class="pricing__stat-number">10+</h2>
               <h6 class="pricing__stat-legend">Months of runway</h6>
             </div>
           </div>
 
-          <span class="pricing__small-text">choose plan:</span>
+          <span class="pricing__small-text hidden top">choose plan:</span>
 
-          <div class="pricing__grid">
+          <div class="pricing__grid hidden">
             <!-- Card 1 -->
-            <div class="block block--surface pricing__card">
+            <div class="block block--surface pricing__card hidden left">
               <h2 class="pricing__card-name">Plus</h2>
               <div class="pricing__card-footer">
                 <h4 class="pricing__card-price">$2.99/month</h4>
@@ -306,7 +310,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="block block--primary pricing__card">
+            <div class="block block--primary pricing__card hidden right">
               <img class="pricing__card-badge" src="./src/assets/fixed-image-plan.svg" alt="Premium Plan" draggable="false">
               <h2 class="pricing__card-name">Premium</h2>
               <div class="pricing__card-footer">
@@ -321,15 +325,15 @@
 
     <section class="section section--canvas">
       <div class="container">
-        <div class="block block--stronger">
+        <div class="block block--stronger hidden bottom">
           <div class="get-started">
             <div class="get-started__content">
-              <span class="get-started__small-text">try it now</span>
-              <h2 class="get-started__title">Ready to level up your payment process?</h2>
-              <p class="get-started__description">Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
+              <span class="get-started__small-text hidden left">try it now</span>
+              <h2 class="get-started__title hidden left">Ready to level up your payment process?</h2>
+              <p class="get-started__description hidden left">Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
             </div>
 
-            <div class="get-started__actions">
+            <div class="get-started__actions hidden right">
               <button class="button" data-variant="primary" data-size="large">Get Started Now</button>
               <button class="button" data-variant="tertiary" data-size="large">
                 Learn More
@@ -346,7 +350,7 @@
     <div class="container footer__container">
       <div class="footer__grid">
         <!-- Column 1 -->
-        <div class="footer__grid-column">
+        <div class="footer__grid-column hidden bottom">
           <img class="logo" src="./src/assets/logo.svg" alt="Logo Finpay" draggable="false">
           
           <h6 class="footer__grid-title">Social Links</h6>
@@ -359,7 +363,7 @@
         </div>
 
         <!-- Column 2 -->
-        <div class="footer__grid-column">
+        <div class="footer__grid-column hidden bottom">
           <h6 class="footer__grid-title">Solutions</h6>
 
           <ul class="footer__grid-list">
@@ -371,7 +375,7 @@
         </div>
 
         <!-- Column 3 -->
-        <div class="footer__grid-column">
+        <div class="footer__grid-column hidden bottom">
           <h6 class="footer__grid-title">Company</h6>
         
           <ul class="footer__grid-list">
@@ -382,7 +386,7 @@
         </div>
 
         <!-- Column 4 -->
-        <div class="footer__grid-column">
+        <div class="footer__grid-column hidden bottom">
           <h6 class="footer__grid-title">Learn</h6>
         
           <ul class="footer__grid-list">
@@ -393,10 +397,11 @@
           </ul>
         </div>
       </div>
-      <div class="footer__copyright"></div>
+      <div class="footer__copyright hidden bottom"></div>
     </div>
   </footer>
 
+  <script src="./src/js/animations.js"></script>
   <script src="./src/js/app.js"></script>
 </body>
 

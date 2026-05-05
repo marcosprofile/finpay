@@ -10,6 +10,18 @@
     min-width: 420px;
     flex: 1;
 
+    &:first-child {
+      transition-delay: 400ms;
+    }
+
+    &:nth-child(2) {
+      transition-delay: 700ms;
+    }
+
+    &:nth-child(3) {
+      transition-delay: 1000ms;
+    }
+
     .metrics__title {
       font-size: 5rem;
       line-height: 1.4;

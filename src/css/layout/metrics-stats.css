@@ -160,6 +160,7 @@
     
     .block {
       min-width: 375px;
+      flex: unset;
     }
 
     &:has(.metrics__content) {

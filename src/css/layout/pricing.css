@@ -14,11 +14,7 @@
     }
   }
 
-  .pricing__small-text {
-    font-size: var(--legend);
-    font-weight: var(--font-weight-medium);
-    color: var(--color-text-brand);
-    text-transform: uppercase;
+  .legend__small {
     text-align: center;
     transition-delay: 1000ms;
   }
@@ -50,13 +46,13 @@
       }
 
       .pricing__stat-number {
-        font-size: var(--heading-1);
+        font-size: var(--font-size-heading-1);
         line-height: var(--line-height-heading-1);
-        letter-spacing: var(--tighter);
+        letter-spacing: var(--letter-spacing-tighter);
       }
 
       .pricing__stat-legend {
-        letter-spacing: var(--tight);
+        letter-spacing: var(--letter-spacing-tight);
       }
     }
   }
@@ -78,10 +74,21 @@
       -webkit-user-select: none;
       user-select: none;
 
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-card);
+
+        .pricing__plan-value {
+          img {
+            transform: translateY(-8px) translateX(8px);
+          }
+        }
+      }
+
       &:first-child {
         transition-delay: 1400ms;
       }
-      
+
       &:last-child {
         transition-delay: 1800ms;
       }
@@ -124,16 +131,6 @@
         .pricing__card-footer {
           img {
             filter: brightness(1000);
-          }
-        }
-      }
-
-      &:hover {
-        box-shadow: var(--shadow-card);
-
-        .pricing__plan-value {
-          img {
-            transform: translateY(-8px) translateX(8px);
           }
         }
       }

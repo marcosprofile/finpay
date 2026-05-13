@@ -40,7 +40,7 @@
 
             .footer__grid-item a {
               padding: var(--spacing-4);
-              border-radius: var(--rounded-md);
+              border-radius: var(--rounded-6);
               transition: all .2s ease;
 
               &:hover {
@@ -54,11 +54,11 @@
           width: max-content;
           height: 1.5rem;
         }
-        
+
         .footer__grid-title {
           font-weight: var(--font-weight-semibold);
         }
-  
+
         .footer__grid-list {
           display: flex;
           flex-direction: column;
@@ -84,13 +84,13 @@
     .footer__copyright {
       padding-top: var(--spacing-12);
       border-top: 1px solid var(--color-border);
-      
+
       p {
         text-align: center;
         color: var(--color-text-brand);
-        font-family: var(--font-heading);
-        font-size: var(--caption);
-        line-height: var(line-heading-caption);
+        font-family: var(--font-family-heading);
+        font-size: var(--font-size-caption);
+        line-height: var(--line-height-caption);
         font-weight: var(--font-weight-medium);
       }
     }

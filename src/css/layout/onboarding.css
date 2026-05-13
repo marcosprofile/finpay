@@ -2,18 +2,11 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-40);
-  
+
   .onboarding__info {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-8);
-    
-    .onboarding__small-text {
-      font-size: var(--legend);
-      font-weight: var(--font-weight-medium);
-      color: var(--color-text-brand);
-      text-transform: uppercase;
-    }
 
     .onboarding__title {
       color: var(--color-text-inverted);
@@ -32,15 +25,15 @@
         display: flex;
         flex-direction: column;
         gap: var(--spacing-24);
-        
+
         &:first-child {
           transition-delay: 400ms;
         }
-        
+
         &:nth-child(2) {
           transition-delay: 700ms;
         }
-        
+
         &:nth-child(3) {
           transition-delay: 1000ms;
         }
@@ -61,7 +54,7 @@
 
         .onboarding__card-description {
           opacity: .6;
-          font-size: var(--heading-6);
+          font-size: var(--font-size-heading-6);
           line-height: var(--line-height-heading-6);
           font-weight: var(--font-weight-light);
         }

@@ -9,7 +9,7 @@
     width: 4rem;
     height: 4rem;
     background: var(--bg-surface);
-    border-radius: var(--rounded-xl);
+    border-radius: var(--rounded-12);
   }
 
   .functionality__content {
@@ -22,7 +22,7 @@
     }
 
     .functionality__description {
-      font-size: var(--caption);
+      font-size: var(--font-size-caption);
       line-height: var(--line-height-caption);
     }
   }

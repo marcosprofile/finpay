@@ -9,20 +9,13 @@
     gap: var(--spacing-16);
     width: 100%;
 
-    .get-started__small-text {
-      font-size: var(--legend);
-      font-weight: var(--font-weight-medium);
-      color: var(--color-text-brand);
-      text-transform: uppercase;
-    }
-
     .get-started__title,
     .get-started__description {
       color: var(--color-text-inverted);
     }
 
     .get-started__description {
-      font-size: var(--heading-6);
+      font-size: var(--font-size-heading-6);
       line-height: var(--line-height-heading-6);
       font-weight: var(--font-weight-light);
       opacity: .6;

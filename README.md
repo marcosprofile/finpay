@@ -142,7 +142,8 @@ Interface final
 
 ## Resultado
 ### Form de Signup
-<img width="1752" height="1560" alt="image" src="https://github.com/user-attachments/assets/1986503a-00e8-4d3d-a81c-4bca6ef0fb71" /><br>
+<img width="1752" height="1560" alt="image" src="https://github.com/user-attachments/assets/db172400-f959-4bfb-9c73-c43fe8060fa3" />
+<br>
 
 -  Input com validação (error / success)
 -  Botão com estados (disabled → enabled)

@@ -53,6 +53,27 @@ emailInput.addEventListener('input', (e) => {
 });
 
 
-const copyright = document.querySelector('.footer__copyright');
+/* Menu Mobile */
+const mobileMenu = document.querySelector('#mobile-menu');
+const menuIcon = document.querySelector('#menu-icon');
 
+mobileMenu.addEventListener('toggle', () => {
+  const isOpen = mobileMenu.matches(':popover-open');
+
+  menuIcon.src = isOpen
+    ? './src/assets/icons/menu-mobile-open.svg'
+    : './src/assets/icons/menu-mobile.svg';
+});
+
+const menuLinks = mobileMenu.querySelectorAll('a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.hidePopover();
+  });
+});
+
+
+/* Footer Copyright */
+const copyright = document.querySelector('.footer__copyright');
 copyright.innerHTML = `<p>&copy; Finpay ${new Date().getFullYear()}. All Rights Reserved.</p>`

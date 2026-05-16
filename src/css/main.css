@@ -30,6 +30,7 @@
 
 /* Components */
 @import "./components/button.css";
+@import "./components/contextual-menu.css";
 @import "./components/input.css";
 @import "./components/functionality.css";
 @import "./components/header.css";

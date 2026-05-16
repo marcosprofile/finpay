@@ -18,7 +18,7 @@
           <img class="logo" src="./src/assets/logo.svg" alt="Finpay Logo" draggable="false" />
         </a>
         
-        <nav class="navigation">
+        <nav class="navigation" aria-label="Main navigation">
           <ul class="navigation__list">
             <li class="navigation__item"><a href="#">Products</a></li>
             <li class="navigation__item"><a href="#">Customers</a></li>
@@ -32,9 +32,20 @@
           <button class="button button--full" data-variant="primary" data-size="medium">Sign Up</button>
           
           <!-- Button Tablet/Mobile -->
-          <button class="button mobile-menu" aria-label="Open Menu">
-            <img src="./src/assets/icons/menu-mobile.svg" alt="Menu" />
+          <button class="button mobile-menu" aria-label="Open Menu" popovertarget="mobile-menu">
+            <img src="./src/assets/icons/menu-mobile.svg" id="menu-icon" alt="Menu" />
           </button>
+
+          <div id="mobile-menu" popover>
+            <nav class="navigation" aria-label="Mobile navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a href="#">Products</a></li>
+                <li class="navigation__item"><a href="#">Customers</a></li>
+                <li class="navigation__item"><a href="#">Pricing</a></li>
+                <li class="navigation__item"><a href="#">Learn</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </div>

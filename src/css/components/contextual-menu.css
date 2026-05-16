@@ -1,0 +1,18 @@
+.button.mobile-menu {
+  anchor-name: --mobile-menu;
+}
+
+div[popover] {
+  width: 100%;
+  border-radius: var(--rounded-none) var(--rounded-none) var(--rounded-8) var(--rounded-8);
+  border: none;
+  padding: var(--spacing-24);
+  position: absolute;
+  position-anchor: --mobile-menu;
+  top: calc(anchor(bottom) + .5rem);
+  
+  &:popover-open {
+    margin: .5rem 0;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .12);
+  }
+}

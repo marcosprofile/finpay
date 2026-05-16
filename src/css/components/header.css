@@ -42,10 +42,6 @@
       .header__content {
         grid-template-columns: 1fr auto;
 
-        .navigation {
-          display: none;
-        }
-
         .actions {
           .button:not(.mobile-menu) {
             display: none;

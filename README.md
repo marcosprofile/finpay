@@ -10,7 +10,9 @@
 <br>
 **Behance:** [Acessar](https://www.behance.net/gallery/248503691/Finpay-UI-Architecture-Design-System)
 <br>
-**Figma:** [Acessar](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=0-1&t=IGymZ7fCxBRsHrHH-1) 
+**Figma:** [Acessar](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=0-1&t=IGymZ7fCxBRsHrHH-1)
+<br>
+**Figma (tokens):** [Acessar](https://www.figma.com/design/uVD2dB4xb9KEkhjukU200a/Finpay?node-id=18-3507&t=ObKRJWupUl5vDO3N-1) 
 
 ---
 
